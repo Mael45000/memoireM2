@@ -12,6 +12,7 @@ On retrouve :
 Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvrent avec comme délimitation une tabulation.
 
 - le lexique
+  
   Il contient le tableau de l'ensemble des mots en français.
   
 - les scripts
