@@ -12,6 +12,7 @@ On retrouve :
  
 - Le corpus prétraité
 * PRETRAITEMENT_CORPUS
+  
   Il contient le corpus TREMoLo traité avec la variable `normalisation`, présent dans le script EXTRACTION_METHODE_1
 
 Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvrent avec comme délimitation une tabulation.
