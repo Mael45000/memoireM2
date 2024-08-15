@@ -9,7 +9,7 @@ On retrouve :
   * un fichier .tsv
   * un fichier .txt
 
-Les trois documents s'ouvrent avec comme délimitation une tabulation.
+Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvrent avec comme délimitation une tabulation.
 
 - le lexique 
 - les scripts
