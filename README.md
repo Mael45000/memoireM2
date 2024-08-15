@@ -13,7 +13,7 @@ On retrouve :
 - Le corpus prétraité
 * PRETRAITEMENT_CORPUS
   
-  Il contient le corpus TREMoLo traité avec la variable `normalisation`, présent dans le script EXTRACTION_METHODE_1
+Il contient le corpus TREMoLo traité avec la variable `normalisation`, présent dans le script EXTRACTION_METHODE_1
 
 Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvrent avec comme délimitation une tabulation.
 
@@ -34,7 +34,7 @@ Chaque fichiers contient le script python des trois méthode utilisées lors du 
   * methode_2_sortie
   * methode_3_sortie
     
- Ces documents sont les fichiers de sortie des scripts python de chaque méthode.
+ Ces documents sont les fichiers de sortie des scripts Python de chaque méthode.
 
 - les annotations des documents de sortie
   * ANNOTATION_METHODE_2
