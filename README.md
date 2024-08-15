@@ -1,5 +1,6 @@
 # Documentation des pratiques prescriptives chez les non-experts de la langue française sur les réseaux sociaux.
 
+## Description des fichiers
 Cette page regroupe tous les documents présents dans la construction de mon mémoire.
 On retrouve :
 - Le corpus TREMoLo
@@ -8,10 +9,15 @@ On retrouve :
   * un fichier .csv 
   * un fichier .tsv
   * un fichier .txt
+ 
+- Le corpus prétraité
+* PRETRAITEMENT_CORPUS
+  Il contient le corpus TREMoLo traité avec la variable `normalisation`, présent dans le script EXTRACTION_METHODE_1
 
 Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvrent avec comme délimitation une tabulation.
 
 - le lexique
+  * Lexique383
   
   Il contient le tableau de l'ensemble des mots en français.
   
@@ -29,9 +35,10 @@ Chaque fichiers contient le script python des trois méthode utilisées lors du 
     
  Ces documents sont les fichiers de sortie des scripts python de chaque méthode.
 
-  
 - les annotations des documents de sortie
   * ANNOTATION_METHODE_2
   * ANNOTATION_METHODE_3
     
 Ces fichiers sont les annotations qui annotent les documents de sortie des scripts de la méthode 2 et 3. 
+
+## Prérequis
