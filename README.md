@@ -1,9 +1,9 @@
 # Documentation des pratiques prescriptives chez les non-experts de la langue française sur les réseaux sociaux.
 
-Cette page regroupe tous les documents présents dans la construction du mémoire.
+Cette page regroupe tous les documents présents dans la construction de mon mémoire.
 On retrouve :
-##- Le corpus TREMoLo
-`npm install`
+- Le corpus TREMoLo
+
   Il contient le fichier sous trois formats :
   * un fichier .csv 
   * un fichier .tsv
