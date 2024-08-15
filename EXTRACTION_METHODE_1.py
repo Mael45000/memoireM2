@@ -2,8 +2,8 @@ import pandas as pd
 import emoji
 import re
 
-lexique_csv = pd.read_csv("C:/Users/Utilisateur/Downloads/Lexique-query-2024-07-18 11-58-45.csv", sep=";")
-corpus_csv = pd.read_csv("C:/Users/Utilisateur/Documents/EXTRAIT_CORPUS_TREMOLO.csv", sep=";", encoding="UTF-8", engine='python')
+lexique_csv = pd.read_csv("Lexique-query-2024-07-18 11-58-45.csv", sep=";")
+corpus_csv = pd.read_csv("EXTRAIT_CORPUS_TREMOLO.csv", sep=";", encoding="UTF-8", engine='python')
 
 # Crée une variable avec une entrée contenant une châine de caractère, qui retourne une chaîne de caractères normalisée
 def normalisation(y):
