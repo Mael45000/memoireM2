@@ -24,7 +24,7 @@ Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvren
   
 - les scripts
   * EXTRACTION_METHODE_1
-  * EXTRACTION_METHODE_2_
+  * EXTRACTION_METHODE_2
   * EXTRACTION_METHODE_3
     
 Chaque fichiers contient le script python des trois méthode utilisées lors du mémoire.
