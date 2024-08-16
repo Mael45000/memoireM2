@@ -36,6 +36,7 @@ Chaque fichiers contient le script python des trois méthode utilisées lors du 
     
  Ces documents sont les fichiers de sortie des scripts Python de chaque méthode.
 
+
 - les annotations des documents de sortie
   * ANNOTATION_METHODE_2
   * ANNOTATION_METHODE_3
@@ -57,7 +58,18 @@ Voici les bibliothèques Python nécéssaires au fonctionnement des scripts :
 Spacy nécéssite quelques réglages afin d'avoir le pipline français. Tout d'abord, ouvrez un terminal de commande, puis inscrivez dans l'ordre :
 
 `pip install -U pip setuptools wheel`
+
 `pip install -U spacy`
+
 `python -m spacy download fr_core_news_sm`
 
-Le pipline `fr_core_news_sm` est celle qui est utilisée dans les scripts. 
+Le pipline `fr_core_news_sm` est celui qui est utilisé dans les scripts. 
+
+### Ouverture des fichiers
+
+Les scripts Python nécéssitent le téléchargemeent préalable du corpus entier `corpus_tremolo_full.txt` et prétraité `PRETRAITEMENT_CORPUS.csv`. 
+
+Le corpus entier sous le format .txt possède l'encodage `Windows-1252` et possède comme délimiteur de colonne une tabluation : `\t`.
+Le corpus prétraité possède l'encodage `UTF-8` et possède le séparateur de colonne `;`
+Concernant les fichiers de sortie, ils ont tous un encodage `UTF-8`. `EXTRACTION_METHODE_1` possède une virgule comme délimiteur `,`, `EXTRACTION_METHODE_2` et `EXTRACTION_METHODE_3` possèdent le délimiteur `\t`.
+
