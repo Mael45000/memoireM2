@@ -4,50 +4,43 @@
 Cette page regroupe tous les documents présents dans la construction de mon mémoire.
 On retrouve :
 
-- Le mémoire `MEMOIRE_CHEVAL_2024`
-
-  Le mémoire est un fichier .pdf.
+- Le mémoire `MEMOIRE_CHEVAL_2024.pdf`
 
 - Le corpus TREMoLo
 
-  Il contient le fichier sous le format .zip. Une fois décompressé, on puorra accéder au fichier sous format .txt `corpus_tremolo_full.txt`.
+  Il contient le fichier sous le format .zip. Une fois décompressé, on peut accéder au fichier sous format .txt `corpus_tremolo_full.txt`.
 
-- Le corpus prétraité
-  * PRETRAITEMENT_CORPUS
+- Le corpus prétraité `PRETRAITEMENT_CORPUS`
   
-Il contient le corpus TREMoLo traité avec la variable `normalisation`, présent dans le script EXTRACTION_METHODE_1
+  Il contient le corpus TREMoLo traité avec la variable `normalisation`, présente dans le script `EXTRACTION_METHODE_1`.
 
-Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvrent avec comme délimitation une tabulation.
-
-- le lexique
-  
-  * Lexique383
+- le lexique `Lexique383`
   
   Il contient le tableau de l'ensemble des mots en français.
   
-- les scripts
-  * EXTRACTION_METHODE_1
-  * EXTRACTION_METHODE_2
-  * EXTRACTION_METHODE_3
+- Les scripts :
+  * `EXTRACTION_METHODE_1`
+  * `EXTRACTION_METHODE_2`
+  * `EXTRACTION_METHODE_3`
     
-Chaque fichiers contient le script Python des trois méthodes utilisées lors du mémoire.
+  Chaque fichier contient le script Python des trois méthodes utilisées lors du mémoire.
   
-- les documents de sortie des scripts
-  * methode_1_sortie
-  * methode_2_sortie
-  * methode_3_sortie
+- Les documents de sortie des scripts :
+  * `methode_1_sortie`
+  * `methode_2_sortie`
+  * `methode_3_sortie`
     
- Ces documents sont les fichiers de sortie des scripts Python de chaque méthode.
+   Ces documents sont les fichiers de sortie des scripts Python de chaque méthode.
 
-- les annotations des documents de sortie
-  * ANNOTATION_METHODE_2
-  * ANNOTATION_METHODE_3
+- Les annotations des documents de sortie :
+  * `ANNOTATION_METHODE_2`
+  * `ANNOTATION_METHODE_3`
     
-Ces fichiers .csv annotent les documents de sortie des scripts de la méthode 2 et 3. 
+  Ces fichiers .csv sont les documents de sortie annotés des scripts de la méthode 2 et 3. 
 
 ## Prérequis
 
-### Bibliothèques python et Python 
+### Bibliothèques Python et installation de Python 
 
 Le logiciel Python est téléchargeable facilement sur tous les environnements et est gratuit. Vous pouvez l'installer sur le site officiel : https://www.python.org/
 
@@ -71,10 +64,11 @@ Le pipline `fr_core_news_sm` est celui qui est utilisé dans les scripts.
 
 1. Les scripts Python nécéssitent le téléchargement préalable du corpus entier `corpus_tremolo_full.txt` et prétraité `PRETRAITEMENT_CORPUS.csv` pour fonctionner. 
 
-2.  Le corpus entier sous le format .txt possède l'encodage `Windows-1252` et possède comme délimiteur de colonne une tabluation : `\t`.
+2. Le corpus entier sous le format .txt possède l'encodage `Windows-1252` et possède comme délimiteur de colonne une tabluation : `\t`.
 
-3. Le corpus prétraité possède l'encodage `UTF-8` et possède le séparateur de colonne `;`
+3. Le corpus prétraité possède l'encodage `UTF-8` et le séparateur de colonne `;`.
 
 4. Concernant les fichiers de sortie, ils ont tous un encodage `UTF-8`. `EXTRACTION_METHODE_1` possède une virgule comme délimiteur `,`, `EXTRACTION_METHODE_2` et 
 `EXTRACTION_METHODE_3` possèdent le délimiteur `\t`.
 
+5. Les fichiers annotés ont aussi un encodage `UTF-8` 
