@@ -24,12 +24,12 @@ all_words.columns = ["tweet_id", "tweet", "mot"]
 # total_word_count = all_words.shape[0] ----> permet de compter le nombre total de mots dans le corpus
 
 # Filtre les mots qui ne sont pas dans le lexique
-df_results = all_words_df[~all_words_df["mot"].isin(lexique)]
+resultats = all_words_df[~all_words["mot"].isin(lexique)]
 
 # Crée un fichier csv qui stocke les mots pas présents dans le corpus
-df_results.to_csv("methode_1_sortie.csv", index=False)
+resultats.to_csv("methode_1_sortie.csv", index=False)
 
 print("Mots absents du lexique :")
-print(df_results)
+print(resultats)
 # Affiche les mots asbsents du lexique 
 
