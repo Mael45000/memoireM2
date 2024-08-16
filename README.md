@@ -3,6 +3,10 @@
 ## Description des fichiers
 Cette page regroupe tous les documents présents dans la construction de mon mémoire.
 On retrouve :
+-Le mémoire `MEMOIRE_CHEVAL_2024`
+
+Le mémoire est un fichier .pdf.
+
 - Le corpus TREMoLo
 
   Il contient le fichier sous trois formats :
@@ -18,6 +22,7 @@ Il contient le corpus TREMoLo traité avec la variable `normalisation`, présent
 Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvrent avec comme délimitation une tabulation.
 
 - le lexique
+  
   * Lexique383
   
   Il contient le tableau de l'ensemble des mots en français.
@@ -27,7 +32,7 @@ Ces fichiers contiennent l'intégralité du corpus. Les trois documents s'ouvren
   * EXTRACTION_METHODE_2
   * EXTRACTION_METHODE_3
     
-Chaque fichiers contient le script python des trois méthode utilisées lors du mémoire.
+Chaque fichiers contient le script Python des trois méthodes utilisées lors du mémoire.
   
 - les documents de sortie des scripts
   * methode_1_sortie
@@ -36,12 +41,11 @@ Chaque fichiers contient le script python des trois méthode utilisées lors du 
     
  Ces documents sont les fichiers de sortie des scripts Python de chaque méthode.
 
-
 - les annotations des documents de sortie
   * ANNOTATION_METHODE_2
   * ANNOTATION_METHODE_3
     
-Ces fichiers sont les annotations qui annotent les documents de sortie des scripts de la méthode 2 et 3. 
+Ces fichiers .csv annotent les documents de sortie des scripts de la méthode 2 et 3. 
 
 ## Prérequis
 
