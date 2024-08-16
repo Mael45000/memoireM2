@@ -10,11 +10,8 @@ On retrouve :
 
 - Le corpus TREMoLo
 
-  Il contient le fichier sous trois formats :
-  * un fichier .csv 
-  * un fichier .tsv
-  * un fichier .txt
- 
+  Il contient le fichier sous le format .zip. Une fois décompressé, on puorra accéder au fichier sous format .txt `corpus_tremolo_full.txt`.
+
 - Le corpus prétraité
   * PRETRAITEMENT_CORPUS
   
