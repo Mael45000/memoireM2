@@ -2,7 +2,6 @@
 
 ## Description des fichiers
 Cette page regroupe tous les documents présents dans la construction de mon mémoire.
-
 On retrouve :
 
 -Le mémoire `MEMOIRE_CHEVAL_2024`
