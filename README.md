@@ -10,9 +10,9 @@ On retrouve :
 
   Il contient le fichier sous le format .zip. Une fois décompressé, on peut accéder au fichier sous format .txt `corpus_tremolo_full.txt`.
 
--L'extrait du corpus TREMoLo `EXTRAIT_CORPUS_TREMOLO`
+- L'extrait du corpus TREMoLo `EXTRAIT_CORPUS_TREMOLO`
 
-Il contient les 10 000 premieres lignes du corpus.
+  Il contient les 10 000 premieres lignes du corpus.
 
 - Le corpus prétraité `PRETRAITEMENT_CORPUS`
   
