@@ -3,7 +3,7 @@ import emoji
 import re
 
 lexique_csv = pd.read_csv("Lexique.csv", sep=";")
-corpus_csv = pd.read_csv("PRETRAITEMENT_CORPUS.csv", sep=";", encoding="UTF-8", engine='python')
+corpus_csv = pd.read_csv("EXTRAIT_CORPUS_TREMOLO.csv", sep=";", encoding="UTF-8", engine='python')
 
 # Crée une variable avec une entrée contenant une châine de caractère, qui retourne une chaîne de caractères normalisée
 def normalisation(y):
@@ -24,12 +24,11 @@ all_words.columns = ["tweet_id", "tweet", "mot"]
 # total_word_count = all_words.shape[0] ----> permet de compter le nombre total de mots dans le corpus
 
 # Filtre les mots qui ne sont pas dans le lexique
-resultats = all_words_df[~all_words["mot"].isin(lexique)]
+resultats = all_words[~all_words["mot"].isin(lexique)]
 
 # Crée un fichier csv qui stocke les mots pas présents dans le corpus
-resultats.to_csv("methode_1_sortie.csv", index=False)
+resultats.to_csv("methode_TEST_sortie.csv", index=False)
 
 print("Mots absents du lexique :")
 print(resultats)
 # Affiche les mots asbsents du lexique 
-
