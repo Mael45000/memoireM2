@@ -41,7 +41,7 @@ On retrouve :
 
 ## Prérequis
 
-### Bibliothèques Python et installation de Python 
+### Installation de Python et des bibliothèques Python 
 
 Le logiciel Python est téléchargeable facilement sur tous les environnements et est gratuit. Vous pouvez l'installer sur le site officiel : https://www.python.org/
 
