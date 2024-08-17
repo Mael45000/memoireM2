@@ -33,10 +33,11 @@ On retrouve :
    Ces documents sont les fichiers de sortie des scripts Python de chaque méthode.
 
 - Les annotations des documents de sortie :
+  * `ANNOTATION_METHODE_1`
   * `ANNOTATION_METHODE_2`
   * `ANNOTATION_METHODE_3`
     
-  Ces fichiers .csv sont les documents de sortie annotés des scripts de la méthode 2 et 3. 
+  Ces fichiers .csv sont les documents de sortie annotés des scripts des trois méthodes.
 
 ## Prérequis
 
