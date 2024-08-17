@@ -10,6 +10,10 @@ On retrouve :
 
   Il contient le fichier sous le format .zip. Une fois décompressé, on peut accéder au fichier sous format .txt `corpus_tremolo_full.txt`.
 
+-L'extrait du corpus TREMoLo `EXTRAIT_CORPUS_TREMOLO`
+
+Il contient les 10 000 premieres lignes du corpus.
+
 - Le corpus prétraité `PRETRAITEMENT_CORPUS`
   
   Il contient le corpus TREMoLo traité avec la variable `normalisation`, présente dans le script `EXTRACTION_METHODE_1`.
@@ -63,7 +67,7 @@ Le pipline `fr_core_news_sm` est celui qui est utilisé dans les scripts.
 
 ### Ouverture des fichiers
 
-1. Les scripts Python nécéssitent le téléchargement préalable du corpus entier `corpus_tremolo_full.txt` et prétraité `PRETRAITEMENT_CORPUS.csv` pour fonctionner. 
+1. Les scripts Python nécéssitent le téléchargement préalable du corpus entier `corpus_tremolo_full.txt` et prétraité `EXTRAIT_CORPUS_TREMOLO.csv` pour fonctionner. 
 
 2. Le corpus entier sous le format .txt possède l'encodage `Windows-1252` et possède comme délimiteur de colonne une tabluation : `\t`.
 
