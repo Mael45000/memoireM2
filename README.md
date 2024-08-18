@@ -14,7 +14,7 @@ On retrouve :
 
   Il contient les 10 000 premieres lignes du corpus.
 
-- Le corpus prétraité `PRETRAITEMENT_CORPUS`
+- Le corpus prétraité `PRETRAITEMENT_CORPUS`.
   
   Il contient le corpus TREMoLo traité avec la variable `normalisation`, présente dans le script `EXTRACTION_METHODE_1`.
 
