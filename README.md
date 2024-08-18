@@ -4,13 +4,13 @@
 Cette page regroupe tous les documents présents dans la construction de mon mémoire.
 On retrouve :
 
-- Le mémoire `MEMOIRE_CHEVAL_2024.pdf`
+- Le mémoire `MEMOIRE_CHEVAL_2024.pdf`.
 
-- Le corpus TREMoLo
+- Le corpus TREMoLo.
 
   Il contient le fichier sous le format .zip. Une fois décompressé, on peut accéder au fichier sous format .txt `corpus_tremolo_full.txt`.
 
-- L'extrait du corpus TREMoLo `EXTRAIT_CORPUS_TREMOLO`
+- L'extrait du corpus TREMoLo `EXTRAIT_CORPUS_TREMOLO`.
 
   Il contient les 10 000 premieres lignes du corpus.
 
@@ -18,7 +18,7 @@ On retrouve :
   
   Il contient le corpus TREMoLo traité avec la variable `normalisation`, présente dans le script `EXTRACTION_METHODE_1`.
 
-- le lexique `Lexique383`
+- le lexique `Lexique383`.
   
   Il contient le tableau de l'ensemble des mots en français.
   
