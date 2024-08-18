@@ -50,7 +50,7 @@ On retrouve :
 Le logiciel Python est téléchargeable facilement sur tous les environnements et est gratuit. Vous pouvez l'installer sur le site officiel : https://www.python.org/
 
 Voici les bibliothèques Python nécéssaires au fonctionnement des scripts : 
-- `Pandas` le site officiel de Pandas : https://pandas.pydata.org/docs/getting_started/install.html
+- `pandas` le site officiel de Pandas : https://pandas.pydata.org/docs/getting_started/install.html
 - `emoji` le lien d'installation de la bibliothèque : https://pypi.org/project/emoji/
 - `re` le lien d'installation de re : https://pypi.org/project/regex/
 - `spacy` le site de spacy : https://spacy.io/usage
