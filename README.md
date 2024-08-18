@@ -18,7 +18,7 @@ On retrouve :
   
   Il contient le corpus TREMoLo traité avec la variable `normalisation`, présente dans le script `EXTRACTION_METHODE_1`.
 
-- le lexique `Lexique383`.
+- le lexique `Lexique`.
   
   Il contient le tableau de l'ensemble des mots en français.
   
